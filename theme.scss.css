@@ -27,7 +27,7 @@ form {
   }
   #result {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
   body {
 
@@ -49,6 +49,11 @@ input[type="button"] {
   font-size: 20px;
   font-weight: bold;
 }
+#product-title-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 #raw-html {
     font-size: 16px;
   }
@@ -310,6 +315,7 @@ body {
 .result-container {
   max-width: 800px;
   margin: 20px auto;
+  margin-bottom: 40px; 
   padding: 40px;
   background-color: #fff;
   border-radius: 10px;
@@ -374,8 +380,23 @@ form input[type="text"], textarea {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+    margin-bottom: 40px;
+    
   }
-
+  #copy-title-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 40px;
+  }
 
     button {
       transition: background-color 0.3s;
